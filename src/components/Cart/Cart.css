@@ -1,0 +1,21 @@
+.cart {
+	width: 100%;
+	padding: 3rem 5rem;
+}
+
+.cart__container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 800px) {
+	.cart {
+		padding: 3rem;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.cart {
+		padding: 3rem 1rem;
+	}
+}
